@@ -24,6 +24,7 @@ h3 {
 
 .sub-heading {
 	font-size: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 .sub-heading,
@@ -37,7 +38,8 @@ h3 {
 }
 
 .intro p {
-	margin: 1rem 0;
+	max-width: 95%;
+	margin: auto;
 }
 
 .card {
@@ -78,11 +80,15 @@ h3 {
 		margin: 4rem 0;
 	}
 	.intro p {
-		margin: 1rem 0;
+		max-width: 35%;
+		margin: auto;
 	}
 	.main-heading,
 	.sub-heading {
 		font-size: 2.75rem;
+	}
+	.sub-heading {
+		margin-bottom: 1rem;
 	}
 	main {
 		display: grid;
@@ -92,7 +98,9 @@ h3 {
 		grid-gap: 30px;
 		grid-template-areas: '. teambuilder .' 'supervisor teambuilder calculator' 'supervisor karma calculator'
 			'. karma .';
-		margin: 1.5rem 4.5rem;
+		max-width: 80%;
+		margin: auto;
+		padding-bottom: 30px;
 	}
 	.card {
 		margin: 0;
