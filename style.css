@@ -94,7 +94,7 @@ h4 {
 	}
 	.main-heading,
 	.sub-heading {
-		font-size: 2rem;
+		font-size: 2.25rem;
 	}
 	.sub-heading {
 		margin-bottom: 1rem;
@@ -107,7 +107,7 @@ h4 {
 		grid-gap: 30px;
 		grid-template-areas: '. teambuilder .' 'supervisor teambuilder calculator' 'supervisor karma calculator'
 			'. karma .';
-		max-width: 50%;
+		max-width: 75%;
 		margin: auto;
 		padding-bottom: 30px;
 	}
