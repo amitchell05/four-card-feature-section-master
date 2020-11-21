@@ -107,7 +107,7 @@ h4 {
 		grid-gap: 30px;
 		grid-template-areas: '. teambuilder .' 'supervisor teambuilder calculator' 'supervisor karma calculator'
 			'. karma .';
-		max-width: 75%;
+		max-width: 1000px;
 		margin: auto;
 		padding-bottom: 30px;
 	}
